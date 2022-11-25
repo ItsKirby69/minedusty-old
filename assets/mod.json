@@ -1,0 +1,12 @@
+{
+	"name": "minedusty",
+	"displayName": "MineDusty",
+	"author": "[royal]ItsKirby[]",
+	"description": "WOrking on a java mod lol. ItsDaKIRBY69#5369",
+	"subtitle": "Lol idk what to put under here",
+	"version": "1.0",
+	"main": "MineDusty.MineDusty",
+	"minGameVersion": "140.4",
+	"dependencies": [],
+	"hidden": false
+  }
