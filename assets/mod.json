@@ -5,8 +5,9 @@
 	"description": "WOrking on a java mod lol. ItsDaKIRBY69#5369",
 	"subtitle": "Lol idk what to put under here",
 	"version": "1.0",
-	"main": "MineDusty.MineDusty",
+	"main": "minedusty.Minedusty",
 	"minGameVersion": "140.4",
 	"dependencies": [],
-	"hidden": false
+	"hidden": false,
+	"java": true
   }
