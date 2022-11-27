@@ -49,7 +49,7 @@ public class DustBlocks {
 			customShadow = true;
 			variants = 2;
 		}};
-
+		// this is a silo
 		scatterSilo = new ItemTurret("scatter-silo"){{
 			requirements(Category.turret, with(Items.copper, 85, Items.lead, 75, Items.titanium, 25));
 			description = "Turret air defence test";
@@ -61,7 +61,7 @@ public class DustBlocks {
 			rotateSpeed = 8f;
 			targetAir = true;
 			targetGround = false;
-			inaccuracy = 12f;
+			inaccuracy = 11f;
 			buildCost = 500f;
 		
 			shoot.shots = 5;
