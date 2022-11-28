@@ -21,7 +21,7 @@ public class DustItems {
 			flammability = 0.25f;
 			hardness = 2;
 			
-		}}
+		}};
 
 	}
 }
