@@ -20,6 +20,7 @@ public class DustItems {
 		quartz = new Item("FunnyWhiteCrystal", pal2.quartz){{
 			flammability = 0.25f;
 			hardness = 2;
+			
 		}}
 
 	}
