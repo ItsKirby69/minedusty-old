@@ -6,6 +6,7 @@ import mindustry.graphics.*;
 public class pal2 {
 	public static Color
 	//name = Color.valueOf("#00000"),
-	quartz = Color.valueOf("d7d3ba");
+	quartz = Color.valueOf("a997a6"),
+	rosequartz = Color.valueOf("c26ab3");
 
 }

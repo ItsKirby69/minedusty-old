@@ -51,6 +51,8 @@ public class DustBlocks {
 			customShadow = true;
 			variants = 2;
 		}};
+
+		
 		// this is a silo
 		scatterSilo = new ItemTurret("scatter-silo"){{
 			requirements(Category.turret, with(Items.copper, 85, Items.lead, 75, Items.titanium, 25));
