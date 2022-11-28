@@ -2,7 +2,7 @@ Icon will be changed lol
 ![Logo](assets/icon-git.png)
 
 # MineDusty
-This mod aims to add cool content :) Planning to expand upon the game's content for a more complex experience with a vanilla feel. If you have any suggestions, I will hopefully link a place to contact me easily. For now, you can DM me through discord `ItsDaKIRBY69#5361`
+This mod aims to add cool content :) Planning to expand upon the game's content for a more complex experience with a vanilla feel. If you have any suggestions, I will hopefully link a place to contact me easily. For now, you can DM me through discord `ItsDaKIRBY69#5369`
 
 ## Download now!
 [![Download](https://img.shields.io/github/v/release/ItsKirby69/minedusty?color=green&include_prereleases&label=DOWNLOAD%20LATEST%20RELEASE&logo=github&logoColor=green&style=for-the-badge)](https://github.com/ItsKirby69/minedusty/releases) [![Total Downloads](https://img.shields.io/github/downloads/ItsKirby69/minedusty/total?color=green&label=%20&style=for-the-badge)]() [![Stars](https://img.shields.io/github/stars/ItsKirby69/minedusty?style=for-the-badge)]()
