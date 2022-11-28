@@ -52,7 +52,7 @@ public class DustBlocks {
 			variants = 2;
 		}};
 
-		
+		//idea to add quartz walls that deflect lazers or smthn
 		// this is a silo
 		scatterSilo = new ItemTurret("scatter-silo"){{
 			requirements(Category.turret, with(Items.copper, 85, Items.lead, 75, Items.titanium, 25));
