@@ -18,6 +18,7 @@ public class DustItems {
 
 	public static void load(){
 		quartz = new Item("FunnyWhiteCrystal", pal2.quartz){{
+			localizedName = "Quartz";
 			flammability = 0.25f;
 			hardness = 2;
 			

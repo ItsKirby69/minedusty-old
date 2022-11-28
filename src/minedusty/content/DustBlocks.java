@@ -33,13 +33,15 @@ public class DustBlocks {
 	//Turrets
 	scatterSilo, 
 	//Walls
-	largeBoulder;
 	//Drills
+	//Props
+	largeBoulder;
 	//add more categories
 
 	public static void load(){
 
 		largeBoulder = new Wall("large-boulder"){{
+			localizedName = "large boulder";
 			size = 2;
 			hasShadow = true;
 			instantDeconstruct = true;
@@ -52,6 +54,7 @@ public class DustBlocks {
 		// this is a silo
 		scatterSilo = new ItemTurret("scatter-silo"){{
 			requirements(Category.turret, with(Items.copper, 85, Items.lead, 75, Items.titanium, 25));
+			localizedName = "Scatter Silo";
 			description = "Turret air defence test";
 
 			size = 2;
