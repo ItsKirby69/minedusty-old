@@ -34,7 +34,7 @@ public class Minedusty extends Mod{
 				dialog.cont.add("[gray]Please note that his mod is still in Beta.[]").row();
 				dialog.cont.add("[scarlet]Contact me through discord[] [brick]ItsDaKIRBY69#5369[] [scarlet]for any bugs that occur[]").row();
 				dialog.cont.add("[gray]Mess around with the mod and have fun :)[]").row();
-                dialog.cont.button("Got it fam", dialog::hide).size(100f, 50f);
+                dialog.cont.button("Got it fam 👍", dialog::hide).size(150f, 50f);
                 dialog.show();
             });
         });
