@@ -35,7 +35,7 @@ public class DustBlocks {
 	//Walls
 	//Drills
 	//Props
-	largeBoulder;// aliveTree;
+	largeBoulder, aliveTree;
 	//add more categories
 
 	public static void load(){
@@ -113,7 +113,7 @@ public class DustBlocks {
 		}};
 	
 		//deco blocks
-		//aliveTree = new TreeBlock("live-tree");
+		aliveTree = new TreeBlock("live-tree");
 
 		
 	}
