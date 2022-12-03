@@ -113,7 +113,7 @@ public class DustBlocks {
 		}};
 	
 		//deco blocks
-		aliveTree = new TreeBlock("live-tree");
+		aliveTree = new TreeBlock("alive-tree");
 
 		
 	}
