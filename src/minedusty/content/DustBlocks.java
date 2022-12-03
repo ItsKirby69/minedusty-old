@@ -76,10 +76,10 @@ public class DustBlocks {
 
             limitRange(2);
 			ammo(
-				Items.lead, new FlakBulletType(6f, 7f){{
+				Items.lead, new FlakBulletType(6f, 6f){{
 					ammoMultiplier = 6f;
-					splashDamage = 65f;
-					splashDamageRadius = 28f;
+					splashDamage = 55f;
+					splashDamageRadius = 24f;
 					knockback = 0.8f;
 					lifetime = 90f;
 					width = 6f;
@@ -87,10 +87,10 @@ public class DustBlocks {
 					shootEffect = Fx.shootSmall;
 					hitEffect = Fx.flakExplosion;
 				}},
-				Items.metaglass, new FlakBulletType(7f, 6f){{
+				Items.metaglass, new FlakBulletType(5.5f, 6f){{
 					ammoMultiplier = 6f;
 					splashDamage = 60f;
-					splashDamageRadius = 32f;
+					splashDamageRadius = 28f;
 					knockback = 0.8f;
 					lifetime = 90f;
 					width = 6f;
@@ -101,7 +101,7 @@ public class DustBlocks {
 				}},
 				Items.scrap, new FlakBulletType(5.5f, 5f){{
 					ammoMultiplier = 7f;
-					splashDamage = 50f;
+					splashDamage = 45f;
 					splashDamageRadius = 24f;
 					knockback = 0.8f;
 					lifetime = 90f;
