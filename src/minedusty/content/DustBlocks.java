@@ -41,7 +41,6 @@ public class DustBlocks {
 	public static void load(){
 
 		largeBoulder = new Wall("large-boulder"){{
-			localizedName = "large boulder";
 			size = 2;
 			hasShadow = true;
 			instantDeconstruct = true;
@@ -56,9 +55,6 @@ public class DustBlocks {
 		// this is a silo
 		scatterSilo = new ItemTurret("scatter-silo"){{
 			requirements(Category.turret, with(Items.copper, 85, Items.lead, 75, Items.titanium, 25));
-			localizedName = "Scatter Silo";
-			description = "Turret air defence test";
-
 			size = 2;
 			health = 850;
 		
@@ -68,19 +64,40 @@ public class DustBlocks {
 			targetGround = false;
 			inaccuracy = 11f;
 			buildCost = 500f;
-		
-			shoot.shots = 5;
-			shoot.shotDelay = 60f;
-			
+
 			ammo(
-				Items.scrap, new FlakBulletType(4f, 5f){{
-					splashDamage = 10f;
-					splashDamageRadius = 8f;
+				Items.lead, new FlakBulletType(6f, 7f){{
+					splashDamage = 65f;
+					splashDamageRadius = 32f;
 					knockback = 0.8f;
-					speed = 6f;
 					lifetime = 90f;
-					width = 8f;
+					width = 6f;
 					height = 8f;
+					reloadMultiplier = 0.5f;
+					shootEffect = Fx.shootSmall;
+					hitEffect = Fx.flakExplosion;
+				}},
+				Items.metaglass, new FlakBulletType(7f, 5f){{
+					ammoMultiplier = 6f;
+					splashDamage = 60f;
+					splashDamageRadius = 40f;
+					knockback = 0.8f;
+					lifetime = 90f;
+					width = 6f;
+					height = 8f;
+					shootEffect = Fx.shootSmall;
+					hitEffect = Fx.flakExplosion;
+				}},
+				Items.scrap, new FlakBulletType(5.5f, 5f){{
+					ammoMultiplier = 6f;
+					splashDamage = 50f;
+					splashDamageRadius = 56f;
+					knockback = 0.8f;
+					lifetime = 90f;
+					width = 6f;
+					height = 8f;
+					reloadMultiplier = 0.5f;
+					shootEffect = Fx.shootSmall;
 					hitEffect = Fx.flakExplosion;
 				}}
 			);
