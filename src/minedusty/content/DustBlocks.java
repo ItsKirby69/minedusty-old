@@ -52,6 +52,7 @@ public class DustBlocks {
 		}};
 
 		//idea to add quartz walls that deflect lazers or smthn
+		//function numbers (speed, damage)
 		// this is a silo
 		scatterSilo = new ItemTurret("scatter-silo"){{
 			requirements(Category.turret, with(Items.copper, 85, Items.lead, 75, Items.titanium, 25));
@@ -63,10 +64,20 @@ public class DustBlocks {
 			targetAir = true;
 			targetGround = false;
 			inaccuracy = 11f;
+			shootCone = 20f;
 			buildCost = 500f;
 
+			reload = 18f;
+
+            shoot.shotDelay = 5f;
+            shoot.shots = 2;
+            shootSound = Sounds.shootSnap;
+            coolant = consumeCoolant(0.2f);
+
+            limitRange(2);
 			ammo(
 				Items.lead, new FlakBulletType(6f, 7f){{
+					ammoMultiplier = 6f;
 					splashDamage = 65f;
 					splashDamageRadius = 28f;
 					knockback = 0.8f;
@@ -76,7 +87,7 @@ public class DustBlocks {
 					shootEffect = Fx.shootSmall;
 					hitEffect = Fx.flakExplosion;
 				}},
-				Items.metaglass, new FlakBulletType(7f, 5f){{
+				Items.metaglass, new FlakBulletType(7f, 6f){{
 					ammoMultiplier = 6f;
 					splashDamage = 60f;
 					splashDamageRadius = 32f;
@@ -89,7 +100,7 @@ public class DustBlocks {
 					hitEffect = Fx.flakExplosion;
 				}},
 				Items.scrap, new FlakBulletType(5.5f, 5f){{
-					ammoMultiplier = 6f;
+					ammoMultiplier = 7f;
 					splashDamage = 50f;
 					splashDamageRadius = 24f;
 					knockback = 0.8f;
