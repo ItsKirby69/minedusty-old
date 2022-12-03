@@ -35,7 +35,7 @@ public class DustBlocks {
 	//Walls
 	//Drills
 	//Props
-	largeBoulder;
+	largeBoulder, livingTree;
 	//add more categories
 
 	public static void load(){
