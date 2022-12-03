@@ -39,7 +39,7 @@ public class DustBlocks {
 	//add more categories
 
 	public static void load(){
-
+		//props/walls
 		largeBoulder = new Wall("large-boulder"){{
 			size = 2;
 			hasShadow = true;
@@ -53,7 +53,7 @@ public class DustBlocks {
 
 		//idea to add quartz walls that deflect lazers or smthn
 		//function numbers (speed, damage)
-		// this is a silo
+		//turrets
 		scatterSilo = new ItemTurret("scatter-silo"){{
 			requirements(Category.turret, with(Items.copper, 85, Items.lead, 75, Items.titanium, 25));
 			size = 2;
@@ -67,14 +67,11 @@ public class DustBlocks {
 			shootCone = 20f;
 			buildCost = 500f;
 
-			reload = 18f;
+			reload = 24f;
 
             shoot.shotDelay = 5f;
             shoot.shots = 2;
             shootSound = Sounds.shootSnap;
-            coolant = consumeCoolant(0.2f);
-
-            limitRange(2);
 			ammo(
 				Items.lead, new FlakBulletType(6f, 6f){{
 					ammoMultiplier = 6f;
@@ -114,6 +111,10 @@ public class DustBlocks {
 			);
 
 		}};
+	
+		//deco blocks
+		livingTree = new TreeBlock("live-tree");
+
 		
 	}
 }
