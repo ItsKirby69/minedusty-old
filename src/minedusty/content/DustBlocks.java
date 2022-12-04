@@ -118,7 +118,7 @@ public class DustBlocks {
 		aliveTree = new TreeBlock("alive-tree");
 
 		//ores
-		oreQuartz = new OreBlock("quartz-ore", DustItems.quartz){{
+		oreQuartz = new OreBlock(DustItems.quartz){{
 			oreDefault = false;
             oreThreshold = 0.847f;
             oreScale = 25.580953f;
