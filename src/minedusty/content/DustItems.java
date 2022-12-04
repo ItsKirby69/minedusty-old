@@ -14,7 +14,7 @@ import mindustry.type.*;
 
 
 public class DustItems {
-	public static Item quartz, rosequartz,dustquartz;
+	public static Item quartz, rosequartz, dustquartz;
 
 	public static void load(){
 		//quartz can be made using silicon and a machine. idk what yet.

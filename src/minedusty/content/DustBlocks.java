@@ -120,7 +120,7 @@ public class DustBlocks {
 
 		//ores
 		oreQuartz = new OreBlock(Items.quartz){{
-
+			oreDefault = true;
 		}};
 
 		
