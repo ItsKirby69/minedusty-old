@@ -1,4 +1,3 @@
-Icon will be changed lol
 ![Logo](assets/icon-git.png)
 
 # MineDusty
