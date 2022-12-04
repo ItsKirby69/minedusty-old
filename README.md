@@ -1,4 +1,4 @@
-![Logo](assets/icon-git.png)
+![Logo](assets/icon-git.png&align=center)
 
 # MineDusty
 This mod aims to add cool content :) Planning to expand upon the game's content for a more complex experience with a vanilla feel. If you have any suggestions, you can DM me through discord `ItsDaKIRBY69#5369`
