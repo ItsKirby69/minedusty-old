@@ -27,7 +27,7 @@ import mindustry.world.meta.*;
 
 import static minedusty.Minedusty.*;
 import static mindustry.type.ItemStack.*;
-import static minedusty.content.DustItems.*;
+import static minedusty.content.DustItems;
 
 public class DustBlocks {
 	public static Block 
@@ -119,7 +119,7 @@ public class DustBlocks {
 		aliveTree = new TreeBlock("alive-tree");
 
 		//ores
-		oreQuartz = new OreBlock(Items.quartz){{
+		oreQuartz = new OreBlock(DustItems.quartz){{
 			oreDefault = true;
 		}};
 
