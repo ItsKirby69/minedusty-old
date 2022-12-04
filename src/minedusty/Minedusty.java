@@ -42,10 +42,10 @@ public class Minedusty extends Mod{
 
     @Override
     public void loadContent(){
+		DustItems.load();
         DustBlocks.load();
         //DustTechTree.load();
         //DustLiquids.load();
-        DustItems.load();
         //DustBullets.load();
         //DustPlanets.load();
         //DustSectors.load();
