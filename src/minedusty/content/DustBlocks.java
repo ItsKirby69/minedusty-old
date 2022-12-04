@@ -27,7 +27,6 @@ import mindustry.world.meta.*;
 
 import static minedusty.Minedusty.*;
 import static mindustry.type.ItemStack.*;
-import static minedusty.content.DustItems;
 
 public class DustBlocks {
 	public static Block 
