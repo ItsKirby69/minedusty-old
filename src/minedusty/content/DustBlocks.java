@@ -119,8 +119,8 @@ public class DustBlocks {
 		aliveTree = new TreeBlock("alive-tree");
 
 		//ores
-		oreQuartz = new OreBlock(Items.quartz){{
-
+		oreQuartz = new OreBlock(Items.FunnyWhiteCrystal){{
+			oreDefault = true;
 		}};
 
 		
