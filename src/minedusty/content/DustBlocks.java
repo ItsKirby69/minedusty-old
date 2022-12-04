@@ -27,6 +27,7 @@ import mindustry.world.meta.*;
 
 import static minedusty.Minedusty.*;
 import static mindustry.type.ItemStack.*;
+import static minedusty.content.DustItems.*;
 
 public class DustBlocks {
 	public static Block 
@@ -35,7 +36,9 @@ public class DustBlocks {
 	//Walls
 	//Drills
 	//Props
-	largeBoulder, aliveTree;
+	largeBoulder, aliveTree,
+	//ores
+	oreQuartz;
 	//add more categories
 
 	public static void load(){
@@ -114,6 +117,11 @@ public class DustBlocks {
 	
 		//deco blocks
 		aliveTree = new TreeBlock("alive-tree");
+
+		//ores
+		oreQuartz = new OreBlock(Items.quartz){{
+
+		}};
 
 		
 	}

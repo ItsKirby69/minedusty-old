@@ -14,7 +14,7 @@ import mindustry.type.*;
 
 
 public class DustItems {
-	public static Item quartz, rosequartz;
+	public static Item quartz, rosequartz,dustquartz;
 
 	public static void load(){
 		//quartz can be made using silicon and a machine. idk what yet.
@@ -26,6 +26,9 @@ public class DustItems {
 		rosequartz = new Item("FunnyPinkCrystal", pal2.rosequartz){{
 			flammability = 0.25f;
 			hardness = 2;
+		}};
+		//crushed quartz
+		dustquartz = new Item("quartz-dust", pal2.dustquartz){{
 		}};
 
 	}
