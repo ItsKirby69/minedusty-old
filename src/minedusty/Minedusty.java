@@ -28,14 +28,15 @@ public class Minedusty extends Mod{
             //show dialog upon startup
             Time.runTask(10f, () -> {
                 BaseDialog dialog = new BaseDialog("frog");
-                dialog.cont.add("A spooky Warning").row();
+				Vars.ui.showOkText("@mod.warning.title", "@mod.warning.text", () -> {});
+                //dialog.cont.add("A spooky Warning").row();
                 //mod sprites are prefixed with the mod name (this mod is called 'example-java-mod' in its config)
                 dialog.cont.image(Core.atlas.find("minedusty-frog.png")).pad(20f).row();
-				dialog.cont.add("[gray]Please note that this mod (Minedusty) is still in Beta.[]").row();
-				dialog.cont.add("[scarlet]Contact me through discord[] [brick]ItsDaKIRBY69#5369[] [scarlet]for any bugs that occur[]").row();
-				dialog.cont.add("[gray]Mess around with the mod and have fun :)[]").row();
-                dialog.cont.button("Got it fam", dialog::hide).size(150f, 50f);
-                dialog.show();
+				//dialog.cont.add("[gray]Please note that this mod (Minedusty) is still in Beta.[]").row();
+				//dialog.cont.add("[scarlet]Contact me through discord[] [brick]ItsDaKIRBY69#5369[] [scarlet]for any bugs that occur[]").row();
+				//dialog.cont.add("[gray]Mess around with the mod and have fun :)[]").row();
+                //dialog.cont.button("Got it fam", dialog::hide).size(150f, 50f);
+                //dialog.show();
             });
         });
     }
