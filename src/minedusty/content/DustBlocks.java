@@ -43,7 +43,6 @@ public class DustBlocks {
 	public static void load(){
 		//props/walls
 		largeBoulder = new Prop("large-boulder"){{
-			size = 2;
 			hasShadow = true;
 			instantDeconstruct = true;
 			breakSound = Sounds.rockBreak;
