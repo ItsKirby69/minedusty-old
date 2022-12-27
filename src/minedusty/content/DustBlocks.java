@@ -34,6 +34,8 @@ public class DustBlocks {
 	scatterSilo, 
 	//Walls
 	//Drills
+	//Productions
+	pulverizer,
 	//Props
 	largeBoulder, aliveTree,
 	//ores
@@ -112,6 +114,24 @@ public class DustBlocks {
 			);
 
 		}};
+
+		pulverizer = new GenericCrafter("pulverizer"){{
+            requirements(Category.crafting, with(Items.copper, 30, Items.lead, 25));
+            outputItem = new ItemStack(DustItems.dustquartz, 1);
+            craftEffect = Fx.pulverize;
+            craftTime = 40f;
+            updateEffect = Fx.pulverizeSmall;
+            hasItems = hasPower = true;
+            drawer = new DrawMulti(new DrawDefault(), new DrawRegion("-rotator"){{
+                spinSprite = true;
+                rotateSpeed = 2f;
+            }}, new DrawRegion("-top"));
+            ambientSound = Sounds.grinding;
+            ambientSoundVolume = 0.025f;
+
+            consumeItem(DustItems.quartz, 1);
+            consumePower(0.50f);
+        }};
 	
 		//deco blocks
 		aliveTree = new TreeBlock("alive-tree");
