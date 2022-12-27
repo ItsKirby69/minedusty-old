@@ -35,7 +35,7 @@ public class DustBlocks {
 	//Walls
 	//Drills
 	//Productions
-	pulverizer,
+	mpulverizer,
 	//Props
 	largeBoulder, aliveTree,
 	//ores
@@ -115,7 +115,7 @@ public class DustBlocks {
 
 		}};
 
-		pulverizer = new GenericCrafter("pulverizer"){{
+		mpulverizer = new GenericCrafter("grinder"){{
             requirements(Category.crafting, with(Items.copper, 30, Items.lead, 25));
             outputItem = new ItemStack(DustItems.dustquartz, 1);
             craftEffect = Fx.pulverize;
