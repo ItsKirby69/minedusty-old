@@ -58,7 +58,7 @@ public class DustBlocks {
 		//function numbers (speed, damage)
 		//turrets
 		scatterSilo = new ItemTurret("scatter-silo"){{
-			requirements(Category.turret, with(Items.copper, 85, Items.lead, 75, Items.titanium, 25));
+			requirements(Category.turret, with(Items.copper, 85, Items.lead, 75, DustItems.dustquartz, 20));
 			size = 2;
 			health = 850;
 		
