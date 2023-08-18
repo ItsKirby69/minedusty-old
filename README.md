@@ -1,9 +1,9 @@
 ![Logo](assets/icon-git.png?align=center)
 
 # MineDusty
-This mod aims to add cool content :) Planning to expand upon the game's content for a more complex experience with a vanilla feel. If you have any suggestions, you can DM me through discord `ItsDaKIRBY69#5369`
+This mod is just for experimental uses. Adding random content that will probably help for practicing mod making. If you have any suggestions, you can DM me through discord `itsdakirby69`
 
-## Download now!
+## Early Downloads Available
 
 **_This mod is very unfinished! Beta releases are being made public for you to try the mod!_**
 
@@ -12,6 +12,6 @@ This mod aims to add cool content :) Planning to expand upon the game's content 
 When downloading the `minedusty.jar` file from the releases tab, make sure to put the file into your *mods folder*.
 Alternativly, you can `copy the link` of this repository and use that to download the mod *directly* from the game.
 
-Enjoy!
+Enjoy
 
 *//TODO add some content shown in the readme file and add more context.*
