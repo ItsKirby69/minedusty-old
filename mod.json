@@ -1,0 +1,13 @@
+{
+	"name": "minedusty",
+	"displayName": "MineDusty",
+	"author": "[royal]ItsKirby[]",
+	"description": "A java mod by itsdakirby69. Very descriptive yes...",
+	"subtitle": "Putting random stuff together to see what happens",
+	"version": "0.1",
+	"main": "minedusty.Minedusty",
+	"minGameVersion": "140.4",
+	"dependencies": [],
+	"hidden": false,
+	"java": true
+  }
