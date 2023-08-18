@@ -6,7 +6,7 @@
 	"subtitle": "Putting random stuff together to see what happens",
 	"version": "0.1",
 	"main": "minedusty.Minedusty",
-	"minGameVersion": "145.1",
+	"minGameVersion": "140.4",
 	"dependencies": [],
 	"hidden": false,
 	"java": true
