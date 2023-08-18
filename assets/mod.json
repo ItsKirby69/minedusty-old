@@ -2,11 +2,11 @@
 	"name": "minedusty",
 	"displayName": "MineDusty",
 	"author": "[royal]ItsKirby[]",
-	"description": "Putting random stuff together to see what happens. ItsDaKIRBY69#5369",
+	"description": "Putting random stuff together to see what happens. itsdakirby69",
 	"subtitle": "Lol idk what to put under here",
 	"version": "1.0",
 	"main": "minedusty.Minedusty",
-	"minGameVersion": "140.4",
+	"minGameVersion": "145.1",
 	"dependencies": [],
 	"hidden": false,
 	"java": true
