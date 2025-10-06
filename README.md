@@ -3,11 +3,13 @@
 # MineDusty
 This mod is just for experimental uses. Adding random content that will probably help for practicing mod making. If you have any suggestions, you can DM me through discord `itsdakirby69`
 
+Please visit the much better, revamped version of this mod [HERE](https://github.com/ItsKirby69/minedusty)
+
 ## Early Downloads Available (OLD)
 
 **_Please note that this mod is unfinished. Bugs are bound to happen._**
 
-[![Download](https://img.shields.io/github/v/release/ItsKirby69/minedusty?color=green&include_prereleases&label=DOWNLOAD%20LATEST%20RELEASE&logo=github&logoColor=green&style=for-the-badge)](https://github.com/ItsKirby69/minedusty/releases) [![Total Downloads](https://img.shields.io/github/downloads/ItsKirby69/minedusty-old/total?color=555555&label=%20&style=for-the-badge&logo=docusign&logoColor=green)](https://github.com/ItsKirby69/minedusty/releases) [![Stars](https://img.shields.io/github/stars/ItsKirby69/minedusty?style=for-the-badge)](https://github.com/ItsKirby69/minedusty/stargazers)
+[![Download](https://img.shields.io/github/v/release/ItsKirby69/minedusty-old?color=green&include_prereleases&label=DOWNLOAD%20LATEST%20RELEASE&logo=github&logoColor=green&style=for-the-badge)](https://github.com/ItsKirby69/minedusty/releases) [![Total Downloads](https://img.shields.io/github/downloads/ItsKirby69/minedusty-old/total?color=555555&label=%20&style=for-the-badge&logo=docusign&logoColor=green)](https://github.com/ItsKirby69/minedusty/releases) [![Stars](https://img.shields.io/github/stars/ItsKirby69/minedusty?style=for-the-badge)](https://github.com/ItsKirby69/minedusty/stargazers)
 
 --- Soon to be added Trello board ---
 
